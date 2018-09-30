@@ -1,0 +1,25 @@
+VIP = 192.168.204.10
+service iptables stop
+master
+#ifconfig eth0 192.168.204.10 netmask 255.255.255.0   #DIP
+ifconfig eth0:0 192.168.204.10 broadcast 192.168.204.10 netmask 255.255.255.255 #VIP
+
+ipvsadm –C      <==手工清空原来表内容
+ipvsadm --set 30 5 60   <== 设置连接超时值
+ipvsadm -A -t 192.168.204.10:80 -s wrr -p 20  <== -A添加地址，-t指定VIP TCP端口，-s指定调度算法–p会话保持时间
+ipvsadm -a -t 192.168.204.10:80 -r 192.168.204.130:80 -g -w 1  <== -a指定真实服务器， -t lvs上VIP，-r真实服务器ip及端口，-w权重值，-g先择DR模式（-m为NAT模式）
+ipvsadm -a -t 192.168.204.10:80 -r 192.168.204.132:80 -g -w 1
+ipvsadm -L –n      <== 查看表内
+
+
+
+echo "net.ipv4.conf.eth0.arp_announce = 2" >> /etc/sysctl.conf
+echo "net.ipv4.conf.eth0.arp_ignore = 1" >> /etc/sysctl.conf 
+echo "1" > /proc/sys/net/ipv4/ip_forward
+
+#RS ifconfig lo 192.168.204.10 broadcast 192.168.204.10 netmask 255.255.255.255
+
+echo"1" >/proc/sys/net/ipv4/conf/lo/arp_ignore
+echo"2" >/proc/sys/net/ipv4/conf/lo/arp_announce
+echo"1" >/proc/sys/net/ipv4/conf/all/arp_ignore
+echo"2" >/proc/sys/net/ipv4/conf/all/arp_announce

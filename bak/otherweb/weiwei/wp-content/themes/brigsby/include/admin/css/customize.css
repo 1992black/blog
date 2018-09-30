@@ -1,0 +1,23 @@
+/**
+ * Hoot Customizer
+ * ========================================================
+ */
+
+#customize-controls .control-section-hoot-premium { margin-bottom: 15px; }
+.control-section-hoot-premium .accordion-section-title { padding-top: 15px; }
+#customize-controls .control-section-hoot-premium .accordion-section-title:hover,
+#customize-controls .control-section-hoot-premium .accordion-section-title:focus { background-color: #fff; }
+.control-section-hoot-premium .accordion-section-title .button { margin-top: -4px; margin-left: 8px; text-transform: uppercase; -webkit-border-radius: 18px; border-radius: 18px; }
+.hoot-premium-content { display: block; clear: both; margin: 12px 0 -12px; border-top: solid 1px #ddd; }
+.hoot-premium-content.hoot-premium-active { margin: 0; border: none; }
+.hoot-premium-content a { display: inline-block; font-size: 12px; text-transform: uppercase; margin-right: 8px; }
+.rtl .control-section-hoot-premium .accordion-section-title .button { margin-left: 0; margin-right: 8px; }
+
+.hybridextend-customize-control-groupstart.hybridextend-control-id-frontpage_sectionbg_area_a,
+.hybridextend-customize-control-groupstart.hybridextend-control-id-frontpage_sectionbg_area_b,
+.hybridextend-customize-control-groupstart.hybridextend-control-id-frontpage_sectionbg_area_c,
+.hybridextend-customize-control-groupstart.hybridextend-control-id-frontpage_sectionbg_area_d,
+.hybridextend-customize-control-groupstart.hybridextend-control-id-frontpage_sectionbg_area_e,
+.hybridextend-customize-control-groupstart.hybridextend-control-id-frontpage_sectionbg_content { display: none !important; }
+
+.hoot-module-bg-title { font-weight: bold; display: block; text-align: center; }

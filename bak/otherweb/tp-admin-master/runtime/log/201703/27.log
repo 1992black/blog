@@ -1,0 +1,3594 @@
+[ 2017-03-27T14:31:33+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin [运行时间：0.789330s][吞吐率：1.27req/s] [内存消耗：2,335.53kb] [文件加载：50]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'host' => 'www.rootblack.com',
+  'proxy-connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view//dispatch_jump.tpl [ array (
+  0 => 'set_lang',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:31:36+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.072842s][吞吐率：13.73req/s] [内存消耗：2,331.23kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:31:37+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.067045s][吞吐率：14.92req/s] [内存消耗：1,903.45kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'proxy-connection' => 'keep-alive',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:35:08+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.033393s][吞吐率：29.95req/s] [内存消耗：2,332.40kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:35:11+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.028984s][吞吐率：34.50req/s] [内存消耗：1,903.45kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:36:11+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.033348s][吞吐率：29.99req/s] [内存消耗：2,332.52kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:36:15+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.048248s][吞吐率：20.73req/s] [内存消耗：1,903.48kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:36:33+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685 [运行时间：0.041406s][吞吐率：24.15req/s] [内存消耗：1,903.45kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:36:43+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.176879s][吞吐率：5.65req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '7k8vs',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:00+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.040445s][吞吐率：24.72req/s] [内存消耗：2,328.22kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '7k8vs',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:01+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283 [运行时间：0.030293s][吞吐率：33.01req/s] [内存消耗：1,903.60kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:07+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.051917s][吞吐率：19.26req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'wm8hy',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:11+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033843s][吞吐率：29.55req/s] [内存消耗：2,328.22kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'wm8hy',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:11+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195 [运行时间：0.042795s][吞吐率：23.37req/s] [内存消耗：1,903.77kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:20+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032797s][吞吐率：30.49req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'v226b',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:20+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602 [运行时间：0.029781s][吞吐率：33.58req/s] [内存消耗：1,903.59kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:24+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796 [运行时间：0.031477s][吞吐率：31.77req/s] [内存消耗：1,903.41kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:26+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236 [运行时间：0.032345s][吞吐率：30.92req/s] [内存消耗：1,903.57kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:27+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317 [运行时间：0.030309s][吞吐率：32.99req/s] [内存消耗：1,903.96kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:36+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.050368s][吞吐率：19.85req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'JAT6R',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:39+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032508s][吞吐率：30.76req/s] [内存消耗：2,328.22kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'JAT6R',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:40+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295 [运行时间：0.030231s][吞吐率：33.08req/s] [内存消耗：1,903.52kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:41+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033319s][吞吐率：30.01req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'JAT6R',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:42+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937 [运行时间：0.029679s][吞吐率：33.69req/s] [内存消耗：1,903.82kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:45+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033323s][吞吐率：30.01req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'JAT6R',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:45+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414 [运行时间：0.029332s][吞吐率：34.09req/s] [内存消耗：1,903.83kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:46+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032795s][吞吐率：30.49req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'JAT6R',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:46+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485 [运行时间：0.028201s][吞吐率：35.46req/s] [内存消耗：1,903.95kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:48+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032257s][吞吐率：31.00req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'JAT6R',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:48+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823 [运行时间：0.028204s][吞吐率：35.46req/s] [内存消耗：1,903.87kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:37:55+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.048861s][吞吐率：20.47req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '2arae',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:02+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032306s][吞吐率：30.95req/s] [内存消耗：2,328.22kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '2arae',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:02+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033 [运行时间：0.029391s][吞吐率：34.02req/s] [内存消耗：1,904.02kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:04+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033374s][吞吐率：29.96req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '2arae',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:04+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157 [运行时间：0.030321s][吞吐率：32.98req/s] [内存消耗：1,904.27kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:04+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.034347s][吞吐率：29.11req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '2arae',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:05+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157?=r0.7848566904648389?=r0.9406028300891285
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157?=r0.7848566904648389?=r0.9406028300891285 [运行时间：0.029432s][吞吐率：33.98req/s] [内存消耗：1,903.95kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:09+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.037284s][吞吐率：26.82req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '2arae',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:09+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157?=r0.7848566904648389?=r0.9406028300891285?=r0.4555371040260836?=r0.7884451725371744
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157?=r0.7848566904648389?=r0.9406028300891285?=r0.4555371040260836?=r0.7884451725371744 [运行时间：0.030248s][吞吐率：33.06req/s] [内存消耗：1,904.10kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:10+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.035449s][吞吐率：28.21req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '2arae',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:11+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157?=r0.7848566904648389?=r0.9406028300891285?=r0.4555371040260836?=r0.7884451725371744?=r0.6919952570593?=r0.4924308454738344
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.26989158235684685?=r0.2976058822314407?=r0.4462281638336283?=r0.4281673169401472?=r0.7450283661994195?=r0.801522820938408?=r0.22430921973700602?=r0.4937610699175796?=r0.040555626415248236?=r0.29916051179079317?=r0.5411270729491235?=r0.08722309443004295?=r0.9301425997131862?=r0.22863357347580937?=r0.012643246121537999?=r0.7724455365021414?=r0.033182856718971365?=r0.715653602985485?=r0.6289376894108425?=r0.8386692714042823?=r0.012234090660544927?=r0.6393260012055033?=r0.1623711874839575?=r0.3485466644536157?=r0.7848566904648389?=r0.9406028300891285?=r0.4555371040260836?=r0.7884451725371744?=r0.6919952570593?=r0.4924308454738344 [运行时间：0.030455s][吞吐率：32.84req/s] [内存消耗：1,904.12kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:54+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.033647s][吞吐率：29.72req/s] [内存消耗：2,332.52kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:54+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.029538s][吞吐率：33.85req/s] [内存消耗：1,903.47kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:38:59+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033714s][吞吐率：29.66req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'xhiwm',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T14:39:12+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.051957s][吞吐率：19.25req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'xvzcx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:06:44+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin [运行时间：0.042507s][吞吐率：23.53req/s] [内存消耗：2,334.85kb] [文件加载：50]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view//dispatch_jump.tpl [ array (
+  0 => 'set_lang',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:06:47+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.033703s][吞吐率：29.67req/s] [内存消耗：2,331.37kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:06:47+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.030114s][吞吐率：33.21req/s] [内存消耗：1,903.43kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:06:57+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.050610s][吞吐率：19.76req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '8uefk',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:06:58+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.037384s][吞吐率：26.75req/s] [内存消耗：2,328.22kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '8uefk',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:06:58+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.8973055697268064?=r0.6123341359490437
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.8973055697268064?=r0.6123341359490437 [运行时间：0.028636s][吞吐率：34.92req/s] [内存消耗：1,903.39kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:42+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.034647s][吞吐率：28.86req/s] [内存消耗：2,332.52kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:42+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.029989s][吞吐率：33.35req/s] [内存消耗：1,903.44kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:50+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032395s][吞吐率：30.87req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cwegx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:50+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006 [运行时间：0.028359s][吞吐率：35.26req/s] [内存消耗：1,903.40kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:53+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033569s][吞吐率：29.79req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cwegx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:53+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426 [运行时间：0.030797s][吞吐率：32.47req/s] [内存消耗：1,903.70kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:54+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.034259s][吞吐率：29.19req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cwegx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:54+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022 [运行时间：0.031081s][吞吐率：32.17req/s] [内存消耗：1,903.80kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:55+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.035679s][吞吐率：28.03req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cwegx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:55+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291 [运行时间：0.029305s][吞吐率：34.12req/s] [内存消耗：1,903.46kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:57+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.031905s][吞吐率：31.34req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cwegx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:57+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636 [运行时间：0.028925s][吞吐率：34.57req/s] [内存消耗：1,904.02kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:59+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033806s][吞吐率：29.58req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cwegx',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:08:59+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925 [运行时间：0.034651s][吞吐率：28.86req/s] [内存消耗：1,903.83kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:03+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032835s][吞吐率：30.46req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'ccfcg',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:03+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908 [运行时间：0.031758s][吞吐率：31.49req/s] [内存消耗：1,903.88kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:08+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311 [运行时间：0.031436s][吞吐率：31.81req/s] [内存消耗：1,903.60kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:18+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033414s][吞吐率：29.93req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'tevor',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:18+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311?=r0.8869364154207429?=r0.5724895480759258
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311?=r0.8869364154207429?=r0.5724895480759258 [运行时间：0.028959s][吞吐率：34.53req/s] [内存消耗：1,903.73kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:19+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033931s][吞吐率：29.47req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'tevor',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:20+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311?=r0.8869364154207429?=r0.5724895480759258?=r0.4846566861966972?=r0.1739224728391804
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311?=r0.8869364154207429?=r0.5724895480759258?=r0.4846566861966972?=r0.1739224728391804 [运行时间：0.029559s][吞吐率：33.83req/s] [内存消耗：1,903.88kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:21+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.033482s][吞吐率：29.87req/s] [内存消耗：2,329.08kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'tevor',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:09:21+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311?=r0.8869364154207429?=r0.5724895480759258?=r0.4846566861966972?=r0.1739224728391804?=r0.21942560161534197?=r0.9966656442121418
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.21516331049705406?=r0.2092175201778006?=r0.13086519706783073?=r0.46316985707331426?=r0.2378885012284382?=r0.24827507208916022?=r0.30949879927401835?=r0.9499921442109291?=r0.9002534856127282?=r0.7953230737567636?=r0.11725544576654445?=r0.7666017160207925?=r0.6769085266073671?=r0.012839806093607908?=r0.15004109191601311?=r0.8869364154207429?=r0.5724895480759258?=r0.4846566861966972?=r0.1739224728391804?=r0.21942560161534197?=r0.9966656442121418 [运行时间：0.029534s][吞吐率：33.86req/s] [内存消耗：1,903.89kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:09+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.034685s][吞吐率：28.83req/s] [内存消耗：2,332.56kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:09+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.029081s][吞吐率：34.39req/s] [内存消耗：1,903.48kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:13+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.034549s][吞吐率：28.94req/s] [内存消耗：2,328.49kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'cyxku',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:13+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.2882788262933036?=r0.969151640003505
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.2882788262933036?=r0.969151640003505 [运行时间：0.029974s][吞吐率：33.36req/s] [内存消耗：1,903.48kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:20+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.032910s][吞吐率：30.39req/s] [内存消耗：2,328.49kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '4x6f3',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:20+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha?=r0.2882788262933036?=r0.969151640003505?=r0.7440949316765204?=r0.8145299767572751
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha?=r0.2882788262933036?=r0.969151640003505?=r0.7440949316765204?=r0.8145299767572751 [运行时间：0.029698s][吞吐率：33.67req/s] [内存消耗：1,903.80kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:22+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.048814s][吞吐率：20.49req/s] [内存消耗：3,619.29kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '4x6f3',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:23+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.050749s][吞吐率：19.70req/s] [内存消耗：3,619.29kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '4x6f3',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:24+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.050285s][吞吐率：19.89req/s] [内存消耗：3,619.29kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '4x6f3',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:25+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.050009s][吞吐率：20.00req/s] [内存消耗：3,619.29kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '4x6f3',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:11:29+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.049347s][吞吐率：20.26req/s] [内存消耗：3,619.29kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => '4x6f3',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------
+[ 2017-03-27T15:13:14+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/admin/login/index
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index [运行时间：0.037194s][吞吐率：26.89req/s] [内存消耗：2,332.52kb] [文件加载：49]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/view/login/index.html [ array (
+  0 => 'set_lang',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:13:14+08:00 ] 60.205.21.136 202.43.148.166 GET /otherweb/tp-admin-master/public/captcha
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/captcha [运行时间：0.028619s][吞吐率：34.94req/s] [内存消耗：1,903.45kb] [文件加载：37]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-27T15:13:31+08:00 ] 60.205.21.136 202.43.148.166 POST /otherweb/tp-admin-master/public/admin/login/doLogin
+[ log ] www.rootblack.com/otherweb/tp-admin-master/public/admin/login/doLogin [运行时间：0.048725s][吞吐率：20.52req/s] [内存消耗：3,618.84kb] [文件加载：61]
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'doLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '48',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'connection' => 'keep-alive',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=eunk98u6cfd41qj87q19au31h4',
+  'host' => 'www.rootblack.com',
+  'origin' => 'http://www.rootblack.com',
+  'referer' => 'http://www.rootblack.com/otherweb/tp-admin-master/public/admin/login/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13330613321',
+  'password' => '123456',
+  'captcha' => 'bp6vw',
+)
+[ info ] [ LANG ] /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/public/../app/admin/lang/zh-cn.php
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ /data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/app/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2013]SQLSTATE[HY000] [2013] Lost connection to MySQL server at 'reading initial communication packet', system error: 111[/data/home/bxu2359050697/htdocs/otherweb/tp-admin-master/thinkphp/library/think/db/Connection.php:282]
+
+---------------------------------------------------------------

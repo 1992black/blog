@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+    <title>getUserPosition</title> 
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<script type="text/javascript" src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js"></script>
+</head>
+<body>
+<a href=”tel:10086>打电话给:10086</a>
+<a href="wtai://wp//mc;10086">拨打10086 </a>
+    <script type="text/JavaScript">
+	window.onload=function (){
+	    positionInit();
+	}
+	function positionInit() {
+	var geolocation = new qq.maps.Geolocation("OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77", "myapp");
+	var options = {timeout: 8000};
+  geolocation.getLocation(showPosition, showErr, options);
+
+  function showPosition(position) {
+    alert(JSON.stringify(position, null, 4));
+  }
+
+  function showErr() {
+    alert('ܱȡ֨λʧќ');
+  }
+}
+    </script>
+</body>
+</html>
