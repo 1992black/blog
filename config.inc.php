@@ -55,9 +55,9 @@ Typecho_Common::init();
 $db = new Typecho_Db('Pdo_Mysql', 'typecho_');
 #$db = new Typecho_Db('Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => '172.17.0.1',
-  'user' => 'blog',
-  'password' => 'blog',
+  'host' => '172.30.161.183',
+  'user' => 'root',
+  'password' => 'root',
   'charset' => 'utf8',
   'port' => '3306',
   'database' => 'blog',
